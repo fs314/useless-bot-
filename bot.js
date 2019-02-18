@@ -1,7 +1,7 @@
 function answerQuery(query) {
   query = query.toLowerCase();
   if (query.indexOf("rain") != -1 || query.indexOf("sun") != -1 || query.indexOf("weather") != -1 || query.indexOf("football") != -1)
-    return "I do not care too much about weather or football, I'm locked inside a data center.";
+    return "I do not care too much about football or the weather, I'm locked inside a data center.";
   return "Sorry Dave, I cannot do that."
 }
 
